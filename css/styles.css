@@ -1,0 +1,33 @@
+.hr2{
+
+    border-top: 3px double 	#C0C0C0;
+}
+
+.nav-link {
+  font-size: 150%;
+  margin-right:10px;
+}
+
+.imgsdown {
+  border: 5px solid #555;
+  border-color:white;
+}
+
+.logomob{
+   display:none;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .logo {
+    display : none;
+  }
+  .logomob{
+    display:flex;
+  }
+  .imgsdown{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
